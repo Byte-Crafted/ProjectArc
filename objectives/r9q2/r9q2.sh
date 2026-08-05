@@ -54,9 +54,9 @@ FILESYSTEM=ext4
 
 ### Display
   DEVICE_DISPLAY_HFR_MODE="2"                   # High Frame Rate Mode (0=60Hz)
-# DEVICE_HAVE_HIGH_REFRESH_RATE=""              # Device have high refresh rate or not
+  DEVICE_HAVE_HIGH_REFRESH_RATE="true"              # Device have high refresh rate or not
   DEVICE_DISPLAY_REFRESH_RATE_VALUES_HZ="60,120" # Supported rates by display (e.g., 60,120)
-# DEVICE_DEFAULT_REFRESH_RATE=""                # Initial boot refresh rate
+  DEVICE_DEFAULT_REFRESH_RATE="120"                # Initial boot refresh rate
 # DEVICE_HAVE_QHD_PANEL=""                      # True if QHD display device
 # DEVICE_HAVE_AMOLED_DISPLAY=""                 # True if amoled display device
 # DEVICE_AUTO_BRIGHTNESS_LEVEL=""               # Light sensor behavior
@@ -73,7 +73,7 @@ FILESYSTEM=ext4
 ### Build Properties
 # DEVICE_FIRST_API_VERSION=""                   # ro.vendor.build.version.release
 # DEVICE_FIRST_SDK_VERSION=""                   # ro.vendor.build.version.sdk
-# DEVICE_VNDK_VERSION=""                        # VNDK version
+  DEVICE_VNDK_VERSION="30"                        # VNDK version
 # DEVICE_SINGLE_SYSTEM_IMAGE=""                 # ro.product.system.device
 
 ### External
